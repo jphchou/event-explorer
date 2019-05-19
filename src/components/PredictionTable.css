@@ -1,0 +1,13 @@
+.prediction-elem {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.prediction-label {
+    font-weight: bold;
+}
+
+.correct-prediction-row {
+    background-color: #eceff1;
+}

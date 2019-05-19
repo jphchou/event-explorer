@@ -1,0 +1,44 @@
+.bounding-box {
+    position: absolute;
+    border: solid 1px white;
+    box-shadow: 0 0 3px 1px gray;
+    z-index: 1;
+}
+
+.box-selected {
+    box-shadow: 0 0 4px 1px black;
+    background-color: #ccccff33;
+}
+
+.box-handle {
+    position: relative;
+    z-index: 2;
+    border: solid 1px white;
+    box-shadow: 0 0 3px 1px gray;
+    background-color: #212121;
+    opacity: 0.5;
+    width: 20px;
+    height: 20px;
+    border-radius: 0 0 30% 0;
+    left: -1px;
+    top: -1px;
+    cursor: pointer;
+}
+
+.box-correct .box-handle {
+    background-color: #005cb2;
+}
+
+
+.box-handle:hover, .box-selected .box-handle {
+    opacity: 1;
+}
+
+.handle-icon {
+    color: white;
+    margin: auto;
+    position: relative;
+    top: -3px;
+    left: -3px;
+    transform: scale(0.66)
+}

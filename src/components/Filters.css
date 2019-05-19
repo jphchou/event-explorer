@@ -1,0 +1,15 @@
+.filters {
+    margin-top: 1rem;
+}
+
+.filter-group {
+    margin-bottom: 2rem !important;
+}
+
+.filters-header {
+    display: flex;
+}
+
+.reset-button {
+    margin-left: 1rem !important;
+}

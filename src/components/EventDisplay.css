@@ -1,0 +1,17 @@
+.event-display {
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.image-container {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative
+}
+
+.image-container img {
+    vertical-align: middle;
+    z-index: -1;
+    max-height: calc(100vh - 300px);
+    user-select: none;
+}
