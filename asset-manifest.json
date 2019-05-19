@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/event-explorer/static/css/main.7a971976.chunk.css",
+    "main.js": "/event-explorer/static/js/main.284aef75.chunk.js",
+    "main.js.map": "/event-explorer/static/js/main.284aef75.chunk.js.map",
+    "runtime~main.js": "/event-explorer/static/js/runtime~main.78ea7fb1.js",
+    "runtime~main.js.map": "/event-explorer/static/js/runtime~main.78ea7fb1.js.map",
+    "static/css/2.ac77b8b6.chunk.css": "/event-explorer/static/css/2.ac77b8b6.chunk.css",
+    "static/js/2.f3dcffdd.chunk.js": "/event-explorer/static/js/2.f3dcffdd.chunk.js",
+    "static/js/2.f3dcffdd.chunk.js.map": "/event-explorer/static/js/2.f3dcffdd.chunk.js.map",
+    "index.html": "/event-explorer/index.html",
+    "precache-manifest.8738f5108c8e28574134a754317f7b9e.js": "/event-explorer/precache-manifest.8738f5108c8e28574134a754317f7b9e.js",
+    "service-worker.js": "/event-explorer/service-worker.js",
+    "static/css/2.ac77b8b6.chunk.css.map": "/event-explorer/static/css/2.ac77b8b6.chunk.css.map",
+    "static/css/main.7a971976.chunk.css.map": "/event-explorer/static/css/main.7a971976.chunk.css.map"
+  }
+}
