@@ -12,7 +12,7 @@
 
 .box-handle {
     position: relative;
-    z-index: 2;
+    z-index: 2; /* handles sit on top of boxes so they're always clickable */
     border: solid 1px white;
     box-shadow: 0 0 3px 1px gray;
     background-color: #212121;

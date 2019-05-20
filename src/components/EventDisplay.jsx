@@ -15,13 +15,18 @@ export default class EventDisplay extends Component {
   componentWillUpdate(nextProps) {
     if (nextProps.event !== this.props.event) {
       let event = nextProps.event
+
+      // If there's only one prediction, select it by default
       let selectedPrediction = nextProps.event.predictions.length === 1 ? 0 : undefined
+      
       this.setState({ event, selectedPrediction })
     }
   }
 
   selectPrediction(e) {
+    // Deselect if clicking on currently selected prediction
     let newSelection = this.state.selectedPrediction === e ? undefined : e
+    
     this.setState({ selectedPrediction: newSelection })
   }
 

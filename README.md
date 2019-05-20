@@ -29,3 +29,4 @@ I added additional widgets to the `Filters` component - a search box to filter b
 In `EventDetails`, each prediction has a checkmark button which can be used to mark it as correct. This highlights it inside of `EventDetails`, and modifies the icon in the bounding box. Only one of the predictions can be marked as correct, and clicking on an already-selected prediction will unmark it.
 
 #### Add basic tests
+I wrote some simple tests using Jest and [react-testing-library](https://github.com/testing-library/react-testing-library). These tests are fairly barebones as I had no prior experience with testing in React, but they cover some simple rendering and interaction.

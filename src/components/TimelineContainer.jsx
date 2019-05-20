@@ -20,6 +20,7 @@ export default class TimelineContainer extends Component {
     }
   }
 
+  // Transform events into format recognized by timeline
   parseEvents(events) {
     return events.map(e => {
       return {

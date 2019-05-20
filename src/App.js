@@ -112,7 +112,7 @@ export default class App extends Component {
         score.correct = false
       }
     })
-    this.setState({data: newData}, () => this.applyFilters())
+    this.setState({ data: newData }, () => this.applyFilters())
   }
 
   render() {
@@ -120,12 +120,12 @@ export default class App extends Component {
       <div className="app">
         <CssBaseline />
 
-
         <div className="spinner">
           <CircleSpinner
             size={50}
             color="#16161f"
-            loading={this.state.loading} />
+            loading={this.state.loading}
+          />
         </div>
 
         {

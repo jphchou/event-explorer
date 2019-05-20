@@ -35,7 +35,13 @@ export default class Filters extends Component {
             <div className="filters">
                 <div className="filters-header">
                     <Typography component="h2" variant="h6">Filters</Typography>
-                    <Button className="reset-button" color="secondary" onClick={() => this.resetFilters()}>Clear filters</Button>
+                    <Button
+                        className="reset-button"
+                        color="secondary"
+                        onClick={() => this.resetFilters()}
+                    >
+                        Clear filters
+                    </Button>
                 </div>
 
                 <form>

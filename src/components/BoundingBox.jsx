@@ -12,7 +12,6 @@ export default class BoundingBox extends Component {
         let selected = this.props.selected ? 'box-selected' : ''
         let correct = this.props.label !== '' ? 'box-correct' : ''
         let classes = `bounding-box ${selected} ${correct}`
-        console.log(classes)
         return (
             <div
                 className={classes}
