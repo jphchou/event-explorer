@@ -7,7 +7,16 @@
 4. Navigate to app in [browser](http://localhost:3000).
 
 ## Notes
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This project was built with HTML, CSS, and React.
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Libraries used include:
+  * [Material-UI](https://material-ui.com/) for a UI framework
+  * [Moment.js](https://momentjs.com/) for timestamp parsing
+  * [Jest](https://jestjs.io/) and [react-testing-library](https://github.com/testing-library/react-testing-library) for testing
+  * [react-datepicker](https://reactdatepicker.com/) for the date pickers
+  * [rc-slider](https://www.npmjs.com/package/rc-slider) for the score range slider
+  * [react-spinners-kit](https://dmitrymorozoff.github.io/react-spinners-kit/) for the loading spinner
+  * [vis.js](http://visjs.org/index.html) for the interactive timeline
 
 ## Requirements
 #### Users should be able to view and interact with a timeline of all events
@@ -29,4 +38,4 @@ I added additional widgets to the `Filters` component - a search box to filter b
 In `EventDetails`, each prediction has a checkmark button which can be used to mark it as correct. This highlights it inside of `EventDetails`, and modifies the icon in the bounding box. Only one of the predictions can be marked as correct, and clicking on an already-selected prediction will unmark it.
 
 #### Add basic tests
-I wrote some simple tests using Jest and [react-testing-library](https://github.com/testing-library/react-testing-library). These tests are fairly barebones as I had no prior experience with testing in React, but they cover some simple rendering and interaction.
+I wrote some simple tests using Jest and [react-testing-library](https://github.com/testing-library/react-testing-library). These tests are fairly barebones as I had no prior experience with testing in React, but they cover some simple rendering and interaction. There were some components (primarily those added by other libraries) that I couldn't figure out how to test, most notably the timeline.
